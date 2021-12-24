@@ -1,0 +1,18 @@
+body {
+  background-color: #1e272b;
+}
+
+#somthing {
+  position: relative;
+  height: 150px;
+}
+
+div#something h1:nth-child(1) {
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
