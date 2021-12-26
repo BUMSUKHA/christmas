@@ -1,18 +1,46 @@
-body {
-  background-color: #1e272b;
-}
-
 #somthing {
   position: relative;
   height: 150px;
 }
 
 div#something h1:nth-child(1) {
-  color: white;
   font-family: "Open Sans Condensed", sans-serif;
   position: absolute;
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
+  transition: color 0.1s ease-in-out;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: #6699cc;
+}
+
+.gray {
+  color: #1f1f1f;
+}
+
+.pink {
+  color: #fd5c63;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.brightGray {
+  color: #666666;
+}
+
+.backBlueGray {
+  background-color: #1e272b;
+}
+
+.backBeige {
+  background-color: beige;
 }
